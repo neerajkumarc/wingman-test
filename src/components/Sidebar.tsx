@@ -14,7 +14,7 @@ const menuItems = [
 export function Sidebar() {
   const pathname = usePathname();
   return (
-    <div className="w-16 bg-[#115E56] border-r h-screen flex flex-col items-center py-4 sticky top-0">
+    <div className="w-16 bg-[#115E56] border-r h-screen flex flex-col items-center py-4 sticky top-0 left-0">
       <div className="flex items-center justify-center w-10 h-12 rounded-lg mb-8 bg-gradient-to-b from-[rgba(63,220,205,0.8)] via-[rgba(63,220,205,0.81)]  to-[rgba(9,84,77,1)]">
         <svg
           width="15"

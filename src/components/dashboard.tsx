@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Tag, TrendingDown, TrendingUp } from "lucide-react";
+import { Tag } from "lucide-react";
 import {
   BiSolidMessageSquare,
   BiSolidMessageSquareDetail,
@@ -131,8 +131,8 @@ const DashboardContent = () => {
 
               <div className="mt-8 space-y-8">
                 <h1 className="text-2xl font-medium">Insights</h1>
-                <div className="grid grid-cols-4 gap-4">
-                  <Card className="col-span-2 bg-white">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                  <Card className="md:col-span-2 bg-white">
                     <ConsultationsChart />
                   </Card>
                   <Card className="col-span-1">

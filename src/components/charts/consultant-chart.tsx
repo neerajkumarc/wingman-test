@@ -52,7 +52,7 @@ export default function ConsultationsChart() {
               color: "hsl(44, 100%, 77%)",
             },
           }}
-          className="h-[300px]"
+          className="md:h-[300px]"
         >
           <ResponsiveContainer width="100%" height="100%">
             <ComposedChart
