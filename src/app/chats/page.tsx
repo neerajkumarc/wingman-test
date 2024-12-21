@@ -76,7 +76,7 @@ const ChatComponent = () => {
                 <Button
                   key={suggestion}
                   variant="secondary"
-                  className="bg-emerald-100 hover:bg-emerald-200 text-emerald-800 justify-start gap-2 rounded-full p-8"
+                  className="bg-emerald-100 hover:bg-emerald-200 text-emerald-800 justify-start gap-2 rounded-full md:p-8 text-xs md:text-base"
                   onClick={() => setInput(suggestion)}
                 >
                   <MousePointer2 className="w-4 h-4" />
